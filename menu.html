@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font awesome icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .menu-bar{
+            padding-bottom: 7%;
+            background-color: #131313;
+        }
+        .cross-sign{
+            padding: 4% 5% 4% 0%;
+             text-align: end;
+             color: #ffffff;
+        }
+         
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .nav-bar{
+            padding-top: 4%;
+            padding-bottom: 7%;
+          
+            text-align: center;
+            margin-top: -3%;
+        }
+        .nav-list{
+             padding-top: 6%;
+            font-size: 150%;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .nav-list span{
+            color: #d81c22;
+        }
+        .content{
+            color: #ffffff;
+            text-align: center;
+        }
+        .content a{
+            cursor: pointer;
+        }
+        .icons{
+             padding: 0% 10% 0% 10%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #brand{
+            font-size: 127%;
+            color: #687279;   
+            
+        }
+        #brand:hover{
+          color: #ffffff;
+          scale: 1.12;
+        }
+        @media only screen and (min-width:1003px){
+            body{
+                display: none;
+            }
+        }
+        
+    </style>
+    <title>menu-bar</title>
+</head>
+<body>
+    <div class="menu-bar">
+        <p class="cross-sign">
+           <a href="index.html"><i class="fa-solid fa-xmark"></i></a> 
+        </p>
+        <div class="nav-bar">
+        <ul>
+        <a href="./index.html"><li class="nav-list"><span>Home</span></li></a>
+            <a href="./story.html"><li class="nav-list">story</li></a>
+            <a href="./product.html"><li class="nav-list">Products</li></a>
+            <a href="./faq.html"><li class="nav-list">FAQs</li></a>
+            <a href="./contact.html"><li class="nav-list">Contacts</li></a>
+        </ul>
+    </div>
+    <div class="content">
+         <div class="icons">
+         <a href=""><i class="fa-brands fa-facebook" id="brand"></i></a>
+        <a href=""><i class="fa-brands fa-twitter" id="brand"></i></a>
+        <a href=""><i class="fa-brands fa-instagram" id="brand"></i></a>
+        <a href=""><i class="fa-solid fa-envelope" id="brand"></i></a>
+        <a href=""><i class="fa-solid fa-square-phone" id="brand"></i></a>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
